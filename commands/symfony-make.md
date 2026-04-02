@@ -32,7 +32,7 @@ Generate Symfony components following the project's coding conventions.
    - Use `Types::` constants for column types
    - Use `DateTimeImmutable` for timestamps
    - Also create matching repository at `src/Repository/{Name}Repository.php`
-   - Suggest: "Run `/php-symfony-toolkit:doctrine-migration diff` to generate the migration"
+   - Suggest: "Run `/php-harmony:doctrine-migration diff` to generate the migration"
 
    ### controller
    - Location: `src/Controller/{Name}Controller.php`

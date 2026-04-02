@@ -1,7 +1,7 @@
 {
-  "name": "php-symfony-toolkit",
+  "name": "php-harmony",
   "version": "1.0.0",
-  "description": "PHP and Symfony development toolkit with code quality enforcement, Doctrine patterns, Messenger guidance, and automated quality hooks",
+  "description": "Comprehensive PHP development toolkit with code quality enforcement, ORM patterns, async messaging guidance, security auditing, and automated quality hooks. Supports Symfony 6/7 and any Composer-based PHP project.",
   "author": {
     "name": "Maarten De Rammelaere"
   },

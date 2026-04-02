@@ -1,4 +1,4 @@
-# php-symfony-toolkit
+# php-harmony
 
 A Claude Code plugin for PHP and Symfony development. Provides code quality enforcement, Doctrine patterns, Messenger guidance, testing best practices, security conventions, and automated quality hooks.
 
@@ -13,13 +13,13 @@ A Claude Code plugin for PHP and Symfony development. Provides code quality enfo
 ### From marketplace
 
 ```bash
-claude plugin install php-symfony-toolkit
+claude plugin install php-harmony
 ```
 
 ### Local development
 
 ```bash
-claude --plugin-dir /path/to/php-symfony-toolkit
+claude --plugin-dir /path/to/php-harmony
 ```
 
 ## What's included
@@ -40,11 +40,11 @@ Claude automatically uses these when working on relevant PHP/Symfony code:
 
 | Command | Description |
 |---------|-------------|
-| `/php-symfony-toolkit:quality-check [--fix] [path]` | Run PHPStan and PHP-CS-Fixer |
-| `/php-symfony-toolkit:run-tests [filter] [--coverage] [--parallel]` | Run PHPUnit or Paratest |
-| `/php-symfony-toolkit:check-debug [path]` | Scan for leftover debug statements |
-| `/php-symfony-toolkit:doctrine-migration [action]` | Generate, run, or review Doctrine migrations |
-| `/php-symfony-toolkit:symfony-make <type> <name>` | Generate Symfony components |
+| `/php-harmony:quality-check [--fix] [path]` | Run PHPStan and PHP-CS-Fixer |
+| `/php-harmony:run-tests [filter] [--coverage] [--parallel]` | Run PHPUnit or Paratest |
+| `/php-harmony:check-debug [path]` | Scan for leftover debug statements |
+| `/php-harmony:doctrine-migration [action]` | Generate, run, or review Doctrine migrations |
+| `/php-harmony:symfony-make <type> <name>` | Generate Symfony components |
 
 ### Agents
 
@@ -64,8 +64,6 @@ Automated quality enforcement after every PHP file write/edit:
 ## Supported frameworks
 
 - Symfony 6.x, 7.x
-- Shopware 6 (Symfony-based)
-- Pimcore 11 (Symfony-based)
 - Any PHP project using Composer
 
 ## License

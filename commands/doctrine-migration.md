@@ -56,5 +56,5 @@ Manage Doctrine migrations for the project.
    Show which migration was rolled back.
 
 4. **After diff**: suggest next steps:
-   - "Review the migration SQL, then run `/php-symfony-toolkit:doctrine-migration migrate`"
-   - "Or rollback with `/php-symfony-toolkit:doctrine-migration rollback`"
+   - "Review the migration SQL, then run `/php-harmony:doctrine-migration migrate`"
+   - "Or rollback with `/php-harmony:doctrine-migration rollback`"
