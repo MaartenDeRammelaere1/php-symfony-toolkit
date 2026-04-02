@@ -1,0 +1,18 @@
+{
+  "name": "php-symfony-toolkit",
+  "version": "1.0.0",
+  "description": "PHP and Symfony development toolkit with code quality enforcement, Doctrine patterns, Messenger guidance, and automated quality hooks",
+  "author": {
+    "name": "Maarten De Rammelaere"
+  },
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "symfony",
+    "doctrine",
+    "phpstan",
+    "php-cs-fixer",
+    "phpunit",
+    "messenger"
+  ]
+}
